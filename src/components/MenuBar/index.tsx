@@ -21,7 +21,7 @@ const navigationMenu = [
 export const MenuBar = () => {
   return (
     <nav className="flex">
-      <ul className="flex gap-6">
+      <ul className="flex gap-6 text-gray-500">
         {navigationMenu.map(item => (
           <Link to={item.to}>
             <li key={item.id} >{item.description}</li>

@@ -9,12 +9,9 @@ export const PageLayout = ({ children }: PageLayoutProps) => {
   return (
     <>
       <MainHeader />
-      <main>
+      <main className="bg-primary min-h-screen">
         { children }
       </main>
-      <footer>
-        aqui será o rodapé
-      </footer>
     </>
   )
 }

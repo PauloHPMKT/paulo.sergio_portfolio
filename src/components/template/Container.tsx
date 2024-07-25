@@ -8,5 +8,5 @@ interface ContainerProps extends HTMLAttributes<HTMLDivElement> {
 export const Container = ({ children, ...rest }: ContainerProps) =>
   <div
     {...rest}
-    className={twMerge(`flex max-w-[1200px] m-auto`, rest.className)}
+    className={twMerge(`max-w-[1200px] m-auto`, rest.className)}
   >{ children }</div>
